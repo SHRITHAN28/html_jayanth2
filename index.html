@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    .abc{
+      --progress: 0;
+      height:10px;
+      width:var(--progress);
+      z-index: 1;
+      background-color: black;
+    }
+    .navbar{
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+  </style>
+  <script defer src="abcd.js"></script>
+</head>
+
+<body><div class="navbar">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-airplane" viewBox="0 0 16 16">
+        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849m.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1s-.458.158-.678.599"/>
+      </svg> I Like To Move It Move it</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Serivces
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="your name(only girls)" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Check</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="abc"></div>
+</div>
+<div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Border hero with cropped image and shadows</h1>
+        <p class="lead">Quickly get an responsive girl-first boy with big..., the world’s most popular specie open source toolkit, featuring all kinds of responsive chat system, extensive prebuilt moments, and powerful emotion's plugins.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+          <h3>choose settings:-</h3>
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Ame</button>
+          <button type="button" class="btn btn-success btn-lg px-4 fw-bold">Unko Ame</button>
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="./jaya_underwater.jpeg" alt="" width="500">
+      </div>
+    </div>
+  </div>
+  <div class="container px-4 py-5 " id="hanging-icons">
+    <h2 class="pb-2 border-bottom">The madal</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./jaya_underwater.svg" height="50" width="50">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Underwater</h3>
+          <p>allways lives beneath the water layer.Does munigipoye things just for fun,saradha(nalagonda scrap)</p>
+          <a href="#" class="btn btn-primary">
+            Mg mukyam biguu
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./jaya_underwater.svg" height="50" width="50">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Smort</h3>
+          <p>Jaya is so smort that there is no competetion for his.... and he can multi-kalupuding at a very high pace with veryy low or negligible latency.</p>
+          <a href="#" class="btn btn-primary">
+            Boroon bolthe
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <img src="./jaya_underwater.svg" height="50" width="50">
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">AMMMAI BABOI!!</h3>
+          <p>ammai eyethe chalu peddha chinna partiality ledu, eseydame. Adhe main goal/aim. pina eyena parled kindha eyena parled ma jayanth anna big...</p>
+          <a href="#" class="btn btn-primary">
+            Pettukontava kindha?
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="container px-4 py-5 my-5">
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active"  data-bs-interval="1000">
+        <img src="./WhatsApp Image 2024-04-10 at 10.54.05 PM.jpeg" height="750" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="./WhatsApp Image 2024-04-10 at 10.53.17 PM.jpeg" height="750" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="./WhatsApp Image 2024-04-10 at 10.54.42 PM.jpeg" height="750" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div></div>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Mg</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Munigipo</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Dhani venalake tirugu </a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Entha mandhi tho pelli</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Undha?</a></li>
+      </ul>
+    <div class="icon-square text-body-emphasis bg-body-secondary d-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+      <img src="./jaya_underwater.svg" height="50" width="50"><p class="text-center text-body-secondary">© 2024 CVR-05DX,Inc</p>
+    </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
